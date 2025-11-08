@@ -1,7 +1,6 @@
 from django.urls import path
-from finance.views import home, Homeview
+from finance.views import RegisterView
 
 urlpatterns = [
-    path('home/', home, name='home'),
-    path('', Homeview.as_view(), name='class-home'),
+    path('register/', RegisterView.as_view(), name="register"),
 ]
