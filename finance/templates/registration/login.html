@@ -38,7 +38,22 @@
                         Sign In
                     </button>
                 </div>
-            </form>    
+            </form>  
+            <div class="text-center space-y-2">
+                <p class="text-sm text-gray-600">
+                    Don't have an account? 
+                    <a href="{% url 'register' %}" class="font-medium text-indigo-600 hover:text-indigo-500
+                        transition duration-150 ease-in-out">
+                        Register here
+                    </a>
+                </p>
+                <p class="text-xs text-gray-500">
+                    <a href="{% url 'password_reset' %}" class="font-medium text-indigo-600 hover:text-indigo-500
+                        transition duration-150 ease-in-out">
+                        Forgot your password?
+                    </a>
+                </p>
+            </div>
     </div>
 </div>
 {% endblock content %} 
