@@ -144,8 +144,8 @@ ALLOWED_HOSTS = ['your-domain.com', 'www.your-domain.com']
 
 - Use a production server like:
 
-Gunicorn (WSGI)
-Uvicorn (ASGI)
+  - Gunicorn (WSGI)
+  - Uvicorn (ASGI)
 
 - Serve static files with Nginx/Apache
 - Use HTTPS and environment variables
@@ -160,9 +160,9 @@ Uvicorn (ASGI)
 - Add open-source license (MIT, GPL, etc.)
 - Add .env support using python-dotenv
 - Extend features:
-Budgeting tools
-Chart-based analytics
-API endpoints with Django REST Framework
+  - Budgeting tools
+  - Chart-based analytics
+  - API endpoints with Django REST Framework
 
 ---
 
