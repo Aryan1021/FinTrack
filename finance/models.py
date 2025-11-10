@@ -12,3 +12,6 @@ class Transaction(models.Model):
     transaction_type = models.CharField(max_length=10, choices=TRANSACTION_TYPE)  
     date = models.DateField()
     category = models.CharField(max_length=255)
+
+    def __str__(self):
+        return self.title
